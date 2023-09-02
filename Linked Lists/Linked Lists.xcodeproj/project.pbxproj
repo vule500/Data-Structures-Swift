@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B91F1B182AA3DBF000D3A8E1 /* DLNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91F1B172AA3DBF000D3A8E1 /* DLNode.swift */; };
+		B91F1B1A2AA3DBFA00D3A8E1 /* DLList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91F1B192AA3DBFA00D3A8E1 /* DLList.swift */; };
 		B9784AB42AA329C1006C99BD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9784AB32AA329C1006C99BD /* main.swift */; };
 		B9784ABB2AA32A02006C99BD /* SLNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9784ABA2AA32A02006C99BD /* SLNode.swift */; };
 		B9784ABD2AA32A6B006C99BD /* SLList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9784ABC2AA32A6B006C99BD /* SLList.swift */; };
@@ -25,6 +27,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B91F1B172AA3DBF000D3A8E1 /* DLNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DLNode.swift; sourceTree = "<group>"; };
+		B91F1B192AA3DBFA00D3A8E1 /* DLList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DLList.swift; sourceTree = "<group>"; };
 		B9784AB02AA329C1006C99BD /* Linked Lists */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Linked Lists"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9784AB32AA329C1006C99BD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B9784ABA2AA32A02006C99BD /* SLNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLNode.swift; sourceTree = "<group>"; };
@@ -42,9 +46,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B91F1B162AA3DBCE00D3A8E1 /* Doubly Linked List */ = {
+			isa = PBXGroup;
+			children = (
+				B91F1B172AA3DBF000D3A8E1 /* DLNode.swift */,
+				B91F1B192AA3DBFA00D3A8E1 /* DLList.swift */,
+			);
+			path = "Doubly Linked List";
+			sourceTree = "<group>";
+		};
 		B9784AA72AA329C1006C99BD = {
 			isa = PBXGroup;
 			children = (
+				B9784AB32AA329C1006C99BD /* main.swift */,
+				B91F1B162AA3DBCE00D3A8E1 /* Doubly Linked List */,
 				B9784AB22AA329C1006C99BD /* Linked Lists */,
 				B9784AB12AA329C1006C99BD /* Products */,
 			);
@@ -61,7 +76,6 @@
 		B9784AB22AA329C1006C99BD /* Linked Lists */ = {
 			isa = PBXGroup;
 			children = (
-				B9784AB32AA329C1006C99BD /* main.swift */,
 				B9784ABA2AA32A02006C99BD /* SLNode.swift */,
 				B9784ABC2AA32A6B006C99BD /* SLList.swift */,
 			);
@@ -126,7 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B91F1B1A2AA3DBFA00D3A8E1 /* DLList.swift in Sources */,
 				B9784ABB2AA32A02006C99BD /* SLNode.swift in Sources */,
+				B91F1B182AA3DBF000D3A8E1 /* DLNode.swift in Sources */,
 				B9784ABD2AA32A6B006C99BD /* SLList.swift in Sources */,
 				B9784AB42AA329C1006C99BD /* main.swift in Sources */,
 			);

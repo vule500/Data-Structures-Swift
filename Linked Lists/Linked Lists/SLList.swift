@@ -170,4 +170,24 @@ class SLList<T: Equatable> {
         
     }
     
+    func countDuplicates() -> Int
+    {
+        var nD: Int = 0
+        var tmp1: SLNode! = self.head
+        var tmp2: SLNode! = tmp1.next
+        while(tmp1 != nil)
+        {
+            while(tmp2 != nil)
+            {
+                if(tmp1.value == tmp2.value)
+                {
+                    nD+=1
+                }
+                tmp2=tmp2.next
+            }
+            tmp1=tmp1.next
+        }
+        return nD
+    }
+    
 }
